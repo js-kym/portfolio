@@ -7,19 +7,17 @@
         <div></div>
         <div></div>
       </div>
-      <transition>
-        <div class="menuWrapper" v-show="menuOpenFlg">
-          <menu>
-            <ul>
-              <li @click="closeMenu"><router-link to="/">TOP</router-link></li>
-              <li @click="closeMenu"><router-link to="/profile">Profile</router-link></li>
-              <li @click="closeMenu"><router-link to="/skill">Skill</router-link></li>
-              <li @click="closeMenu"><router-link to="/product">Product</router-link></li>
-              <li @click="closeMenu"><router-link to="/contact">Contact</router-link></li>
-            </ul>
-          </menu>
-        </div>
-      </transition>
+      <div class="menuWrapper" v-show="menuOpenFlg">
+        <menu>
+          <ul>
+            <li @click="closeMenu"><router-link to="/">TOP</router-link></li>
+            <li @click="closeMenu"><router-link to="/profile">Profile</router-link></li>
+            <li @click="closeMenu"><router-link to="/skill">Skill</router-link></li>
+            <li @click="closeMenu"><router-link to="/product">Product</router-link></li>
+            <li @click="closeMenu"><router-link to="/contact">Contact</router-link></li>
+          </ul>
+        </menu>
+      </div>
     </header>
   </div>
 </template>

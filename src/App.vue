@@ -11,9 +11,7 @@
       </div>
       <div class="main-wrapper">
         <div class="main-pages">
-          <transition>
             <router-view/>
-          </transition>
         </div>
         <div class="main-footer">
           <components-footer/>
