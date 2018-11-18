@@ -1,13 +1,14 @@
 <template>
   <div class="contents-top">
     <div class="main">
-      <vue-typer
+      <!-- <vue-typer
         :text="[text, 'Frontend Engineer', 'Flasher']"
         :pre-type-delay='70'
         :type-delay='150'
         :erase-delay='100'
         erase-style='clear'
-      ></vue-typer>
+      ></vue-typer> -->
+      <div>{{text}}</div>
     </div>
   </div>
 </template>
@@ -42,6 +43,8 @@ export default {
   position: relative;
   width: 100%;
   text-align: center;
+  font-family: 'Play', sans-serif;
+  font-size: 2rem;
 }
 .vue-typer {
   font-family: 'Play', sans-serif;
