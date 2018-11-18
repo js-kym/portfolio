@@ -95,7 +95,7 @@ export default {
     padding: 24px 20px;
     cursor: pointer;
     -webkit-tap-highlight-color:rgba(0,0,0,0);
-    transition: 0.3s;
+    /* transition: 0.3s; */
   }
   .components-header header .iconMenu.active {
     background-color: #ff9234;
