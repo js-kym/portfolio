@@ -35,7 +35,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
 .pages-top {
   width: 100%;
   height: calc(100vh - 70px - 36px);
@@ -48,18 +48,18 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.contents-top-pc__main {
-  position: relative;
-  width: 1000px;
-  text-align: center;
-}
-.vue-typer {
-  font-family: 'Play', sans-serif;
-  font-size: 4rem;
-}
-.vue-typer .custom.char.selected {
-  background-color: #ffcd3c;
+  &__main {
+    position: relative;
+    width: 1000px;
+    text-align: center;
+  }
+  & .vue-typer {
+    font-family: 'Play', sans-serif;
+    font-size: 4rem;
+  }
+  & .vue-typer .custom.char.selected {
+    background-color: #ffcd3c;
+  }
 }
 /* SP用 */
 .contents-top-sp {
@@ -69,12 +69,12 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.contents-top-sp__main {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  font-family: 'Play', sans-serif;
-  font-size: 2rem;
+  &__main {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-size: 2rem;
+  }
 }
 </style>
